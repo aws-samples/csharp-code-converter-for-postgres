@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
+  <Metadata>
+    <Identity Id="SQLServerToPostgresCodeRefactor.Organization.78b4e814-d435-41b2-9722-90161626cabb" Version="1.0" Language="en-US" Publisher="stammisett"/>
+    <DisplayName>SQLServerToPostgresCodeRefactor</DisplayName>
+    <Description xml:space="preserve">This tool is a Visual Studio extension which helps migrating the Microsoft C# ADO.Net code
+that is connected to Microsoft SQL Server to PostgreSQL database.</Description>
+  </Metadata>
+  <Installation>
+	<InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 18.0)" />
+  </Installation>
+  <Dependencies>
+    <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
+  </Dependencies>
+  <Assets>
+    <Asset Type="Microsoft.VisualStudio.MefComponent" d:Source="Project" d:ProjectName="SQLServerToPostgresCodeRefactor" Path="|SQLServerToPostgresCodeRefactor|"/>
+  </Assets>
+  <Prerequisites>
+    <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[16.0,)" DisplayName="Visual Studio core editor" />
+    <Prerequisite Id="Microsoft.VisualStudio.Component.Roslyn.LanguageServices" Version="[16.0,)" DisplayName="Roslyn Language Services" />
+  </Prerequisites>
+</PackageManifest>

@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerToPostgresCodeRefactor", "SQLServerToPostgresCodeRefactor\SQLServerToPostgresCodeRefactor.csproj", "{DDE89DE6-1B38-4D88-A99B-173BC40ABF11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLServerToPostgresCodeRefactor.Vsix", "SQLServerToPostgresCodeRefactor.Vsix\SQLServerToPostgresCodeRefactor.Vsix.csproj", "{CF2D4623-B69F-48CE-975E-AF054CFC4776}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9CDE5F3E-BA3A-44D7-B3D3-62AC2060E62B}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDE89DE6-1B38-4D88-A99B-173BC40ABF11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE89DE6-1B38-4D88-A99B-173BC40ABF11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE89DE6-1B38-4D88-A99B-173BC40ABF11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE89DE6-1B38-4D88-A99B-173BC40ABF11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF2D4623-B69F-48CE-975E-AF054CFC4776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF2D4623-B69F-48CE-975E-AF054CFC4776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF2D4623-B69F-48CE-975E-AF054CFC4776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF2D4623-B69F-48CE-975E-AF054CFC4776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5030AE9E-EADC-4EFD-8733-52DB55531E2E}
+	EndGlobalSection
+EndGlobal
